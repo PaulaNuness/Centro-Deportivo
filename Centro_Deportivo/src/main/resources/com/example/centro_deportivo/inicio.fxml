@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.centro_deportivo.controllers.Centro_DeportivoController">
+   <children>
+      <Label layoutX="328.0" layoutY="76.0" text="AREA USUARIO" />
+      <Button fx:id="botton_entrar" layoutX="178.0" layoutY="494.0" mnemonicParsing="false" onAction="#Entrar" text="ENTRAR" />
+      <Button fx:id="botton_registrar" layoutX="305.0" layoutY="494.0" mnemonicParsing="false" onAction="#Registrar" text="REGISTRARSE" />
+      <Label layoutX="112.0" layoutY="210.0" text="EMAIL: " />
+      <Label layoutX="112.0" layoutY="251.0" text="CONTRASEÑA: " />
+      <TextField fx:id="texto_email" layoutX="252.0" layoutY="205.0" prefHeight="31.0" prefWidth="442.0" />
+      <TextField fx:id="texto_contrasena" layoutX="252.0" layoutY="246.0" prefHeight="31.0" prefWidth="442.0" />
+      <Button fx:id="botton_limpiar_datos" layoutX="460.0" layoutY="494.0" mnemonicParsing="false" onAction="#Limpiar_Datos" text="LIMPIAR DATOS" />
+      <Button fx:id="botton_salir" layoutX="620.0" layoutY="494.0" mnemonicParsing="false" onAction="#Salir" text="SALIR" />
+   </children>
+</AnchorPane>

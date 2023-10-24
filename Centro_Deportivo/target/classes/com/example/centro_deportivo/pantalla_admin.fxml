@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.centro_deportivo.controllers.Pantalla_AdminController">
+   <children>
+      <Label layoutX="205.0" layoutY="41.0" text="Pantalla Admin">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="botton_salir" layoutX="655.0" layoutY="498.0" mnemonicParsing="false" onAction="#Salir" text="SALIR" />
+      <Button fx:id="botton_getionar_monitores" layoutX="308.0" layoutY="190.0" mnemonicParsing="false" onAction="#Gestionar_Monitores" text="GESTIONAR MONITORES" />
+      <Button fx:id="botton_gestionar_clientes" layoutX="308.0" layoutY="240.0" mnemonicParsing="false" onAction="#Gstionar_clientes" text="GESTIONAR CLIENTES" />
+      <Button fx:id="botton_ver_horarios" layoutX="308.0" layoutY="301.0" mnemonicParsing="false" onAction="#Ver_Horarios" text="VER HORARIOS" />
+      <TextArea fx:id="text_area_horarios" layoutX="105.0" layoutY="364.0" prefHeight="285.0" prefWidth="514.0" />
+   </children>
+</AnchorPane>
