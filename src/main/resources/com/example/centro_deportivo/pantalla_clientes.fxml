@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.centro_deportivo.controllers.Pantalla_ClientesController">
+   <children>
+      <Button fx:id="botton_salir" layoutX="485.0" layoutY="653.0" mnemonicParsing="false" onAction="#Salir" text="SALIR" />
+      <Label layoutX="192.0" layoutY="31.0" text="PANTALLA CLIENTES">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="boton_dar_de_alta" layoutX="267.0" layoutY="577.0" mnemonicParsing="false" onAction="#Dar_de_alta" text="DAR DE ALTA" />
+      <Button fx:id="botton_actualiza_datos" layoutX="43.0" layoutY="638.0" mnemonicParsing="false" onAction="#Actualizar_datos" text="ACTUALIZAR DATOS" />
+      <Button fx:id="botton_eliminar_cliente" layoutX="267.0" layoutY="638.0" mnemonicParsing="false" onAction="#Eliminar_cliente" text="ELIMINAR CLIENTE" />
+      <Label layoutX="26.0" layoutY="236.0" text="NOMBRE_APELLIDOS: " />
+      <Label layoutX="36.0" layoutY="297.0" text="PAGO_REALIZADO?" />
+      <Label layoutX="26.0" layoutY="350.0" text="¿HA FALTADO ALGUNA CLASE?" />
+      <Label layoutX="26.0" layoutY="398.0" text="TIPO DE CLIENTE: " />
+      <ComboBox fx:id="combobox_tipo_de_cliente" layoutX="161.0" layoutY="393.0" prefWidth="150.0" />
+      <ComboBox fx:id="combobox_falta" layoutX="247.0" layoutY="345.0" prefWidth="150.0" />
+      <ComboBox fx:id="combobox_pago" layoutX="192.0" layoutY="292.0" prefWidth="150.0" />
+      <TextField fx:id="texto_nombre_apellido" layoutX="182.0" layoutY="231.0" prefHeight="31.0" prefWidth="376.0" />
+      <ListView fx:id="lista_clientes" layoutX="663.0" layoutY="43.0" prefHeight="529.0" prefWidth="200.0" />
+      <Label layoutX="26.0" layoutY="194.0" text="EMAIL:" />
+      <TextField fx:id="texto_email" layoutX="86.0" layoutY="189.0" prefHeight="31.0" prefWidth="376.0" />
+      <Button fx:id="botton_nuevo_cliente" layoutX="67.0" layoutY="577.0" mnemonicParsing="false" onAction="#Nuevo_cliente" text="NUEVO CLIENTE" />
+      <Button fx:id="botoon_ver_datos" layoutX="731.0" layoutY="585.0" mnemonicParsing="false" onAction="#Ver_Datos" text="VER DATOS" />
+   </children>
+</AnchorPane>
