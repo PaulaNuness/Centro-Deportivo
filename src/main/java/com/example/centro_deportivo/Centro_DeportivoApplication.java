@@ -23,9 +23,7 @@ public class Centro_DeportivoApplication extends Application {
     }
 
     public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
-
-        Conexion_Base_de_Datos.actualizar_cliente("paulaa@hotmail.com");
-       //launch();
+       launch();
 
     }
 }

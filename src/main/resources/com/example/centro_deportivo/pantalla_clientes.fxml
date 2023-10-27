@@ -27,10 +27,9 @@
       <ComboBox fx:id="combobox_falta" layoutX="247.0" layoutY="345.0" prefWidth="150.0" />
       <ComboBox fx:id="combobox_pago" layoutX="192.0" layoutY="292.0" prefWidth="150.0" />
       <TextField fx:id="texto_nombre_apellido" layoutX="182.0" layoutY="231.0" prefHeight="31.0" prefWidth="376.0" />
-      <ListView fx:id="lista_clientes" layoutX="663.0" layoutY="43.0" prefHeight="529.0" prefWidth="200.0" />
+      <ListView fx:id="lista_clientes" layoutX="659.0" layoutY="33.0" onMouseClicked="#seleccionarCliente" prefHeight="529.0" prefWidth="200.0" />
       <Label layoutX="26.0" layoutY="194.0" text="EMAIL:" />
       <TextField fx:id="texto_email" layoutX="86.0" layoutY="189.0" prefHeight="31.0" prefWidth="376.0" />
       <Button fx:id="botton_nuevo_cliente" layoutX="67.0" layoutY="577.0" mnemonicParsing="false" onAction="#Nuevo_cliente" text="NUEVO CLIENTE" />
-      <Button fx:id="botoon_ver_datos" layoutX="731.0" layoutY="585.0" mnemonicParsing="false" onAction="#Ver_Datos" text="VER DATOS" />
    </children>
 </AnchorPane>
